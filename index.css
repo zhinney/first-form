@@ -1,35 +1,31 @@
 body{
-    background: grey;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
-    display: grid;
-    line-height: 2;
-    justify-content: center;
-}
-h1{
+    background-color: burlywood;
+    color: brown;
     text-align: center;
-}
-form{
-margin: auto;
-border: 2px solid fff;
-padding: 2em;
-box-shadow: 0 0 10px;
-}
-input[type="text"], input[type="e-mail"], input[type="number"], input[type="password"], input[type="e-mail"] {
-    width: 30rem;
-    padding: 0.5rem 0;
-    border: 1px solid grey;
-    border-radius: 5px;
-}
-button{
-    background-color: grey;
-    color: white;
-    width: 10em;
-    padding: 0.5rem 0;
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    width: 50%;
     margin: auto;
+}
+h3{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+    font-style: normal;
+    margin-top: 0.5em;
+
+}
+img{
+    height: 200px;
+}
+
+li{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: left;
+}
+footer{
+    margin-top: 2em;
+    text-align: left;
 }
