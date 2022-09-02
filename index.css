@@ -1,0 +1,35 @@
+body{
+    background: grey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    display: grid;
+    line-height: 2;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+form{
+margin: auto;
+border: 2px solid fff;
+padding: 2em;
+box-shadow: 0 0 10px;
+}
+input[type="text"], input[type="e-mail"], input[type="number"], input[type="password"], input[type="e-mail"] {
+    width: 30rem;
+    padding: 0.5rem 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+button{
+    background-color: grey;
+    color: white;
+    width: 10em;
+    padding: 0.5rem 0;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>STUDENT REGISTRATION FORM</h1> 
+   <form>
+    <p>Firstname: <br>
+         <input type="text" placeholder="firstname" required/></p>
+         <p>Middlename: <br>
+        <input type="text" placeholder="middlename" required/></p>
+        <p>Othername: <br>
+        <input type="text" placeholder="othername" required</p>
+        <p>D.O.B: <input type="date"/></p>
+        <p>
+           Gender: <br>
+            <label for="male"><input id="male" type="radio"/>male</label>
+            <label for="female"><input id="female" type="radio"/>female</label>
+            <label for="others"><input id="others" type="radio"/>others</label>
+        </p>
+        <p>Phone number:<input type="number"/></p>
+        <p>Do you receive text on this number?
+            <label for="yes"><input id="yes" type="checkbox"/>yes</label>
+            <label for="no"><input id="no" type="checkbox"/>no</label>
+
+        </p>
+        <p>Address: <br>
+            <input type="text"/></p>
+        <p>Course:
+            <select name="Course" id="course">
+                <option value="accounting">accounting</option>
+                <option value="engineering">engineering</option>
+                <option value="medicine">medicine</option>
+                <option value="law">law</option>
+                <option value="mass communication">mass communication</option>
+</select></p>
+        <p>E-mail: <input type="e-mail" placeholder="john@gmail.com" required/></p>
+        <p>Password: <input type="password"/></p>
+        <p>
+            Please attach your passport: <br>
+            <input type="file"/>
+        </p>
+        <button>
+            Register
+        </button>
+
+   </form>
+</body>
+</html>
